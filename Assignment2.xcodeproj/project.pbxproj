@@ -12,6 +12,11 @@
 		688F0ACE209FBDFA00C4272C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688F0ACC209FBDFA00C4272C /* Main.storyboard */; };
 		688F0AD0209FBDFA00C4272C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688F0ACF209FBDFA00C4272C /* Assets.xcassets */; };
 		688F0AD3209FBDFA00C4272C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688F0AD1209FBDFA00C4272C /* LaunchScreen.storyboard */; };
+		68A7C97720B02A8800B66193 /* vcAchievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C97620B02A8800B66193 /* vcAchievements.swift */; };
+		68A7C97920B02CA000B66193 /* vcGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C97820B02CA000B66193 /* vcGame.swift */; };
+		68A7C97B20B143E500B66193 /* vcShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C97A20B143E500B66193 /* vcShop.swift */; };
+		68A7C97D20BACB5B00B66193 /* vcOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A7C97C20BACB5B00B66193 /* vcOptions.swift */; };
+		68A7C97F20BAD17A00B66193 /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68A7C97E20BAD17900B66193 /* bgMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		688F0ACF209FBDFA00C4272C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		688F0AD2209FBDFA00C4272C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		688F0AD4209FBDFA00C4272C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68A7C97620B02A8800B66193 /* vcAchievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcAchievements.swift; sourceTree = "<group>"; };
+		68A7C97820B02CA000B66193 /* vcGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcGame.swift; sourceTree = "<group>"; };
+		68A7C97A20B143E500B66193 /* vcShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcShop.swift; sourceTree = "<group>"; };
+		68A7C97C20BACB5B00B66193 /* vcOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcOptions.swift; sourceTree = "<group>"; };
+		68A7C97E20BAD17900B66193 /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		688F0AC7209FBDF900C4272C /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
+				68A7C97E20BAD17900B66193 /* bgMusic.mp3 */,
 				688F0AC8209FBDFA00C4272C /* AppDelegate.swift */,
 				688F0ACA209FBDFA00C4272C /* ViewController.swift */,
 				688F0ACC209FBDFA00C4272C /* Main.storyboard */,
+				68A7C97C20BACB5B00B66193 /* vcOptions.swift */,
+				68A7C97A20B143E500B66193 /* vcShop.swift */,
+				68A7C97820B02CA000B66193 /* vcGame.swift */,
+				68A7C97620B02A8800B66193 /* vcAchievements.swift */,
 				688F0ACF209FBDFA00C4272C /* Assets.xcassets */,
 				688F0AD1209FBDFA00C4272C /* LaunchScreen.storyboard */,
 				688F0AD4209FBDFA00C4272C /* Info.plist */,
@@ -126,6 +141,7 @@
 				688F0AD3209FBDFA00C4272C /* LaunchScreen.storyboard in Resources */,
 				688F0AD0209FBDFA00C4272C /* Assets.xcassets in Resources */,
 				688F0ACE209FBDFA00C4272C /* Main.storyboard in Resources */,
+				68A7C97F20BAD17A00B66193 /* bgMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				688F0ACB209FBDFA00C4272C /* ViewController.swift in Sources */,
+				68A7C97D20BACB5B00B66193 /* vcOptions.swift in Sources */,
+				68A7C97720B02A8800B66193 /* vcAchievements.swift in Sources */,
+				68A7C97920B02CA000B66193 /* vcGame.swift in Sources */,
 				688F0AC9209FBDFA00C4272C /* AppDelegate.swift in Sources */,
+				68A7C97B20B143E500B66193 /* vcShop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
