@@ -72,7 +72,7 @@ class vcGame: UIViewController {
             startTimer()
             
         }
-        if(gameValues.bitScore == maxCapcity){
+        if(gameValues.bitScore >= maxCapcity){
             gameValues.bitScore = maxCapcity
         }
         
@@ -96,7 +96,7 @@ class vcGame: UIViewController {
     }
     
     @IBAction func MainButtonOnClick(_ sender: UIButton) {
-        if(gameValues.bitScore == maxCapcity){
+        if(gameValues.bitScore >= maxCapcity){
             gameValues.bitScore = maxCapcity
         }
         else{
